@@ -1,0 +1,72 @@
+/*-------------------------------------------------*/
+/*Basic Setup*/
+/*-------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html {
+    color: #555;
+    font-family: 'Lato','Arial' ,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 70%;
+    background-color: black;
+    color:white;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+ul{
+    margin: 0 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    padding: 14px 75px 14px 0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+i {
+    font-size: 170%;
+    color: white;
+    padding-top: 0;
+    position: absolute;
+    top: 8px;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+i:last-child {
+    font-size: 150%;
+}
+a:hover,
+i:hover {
+    color: #696969;
+}
+
